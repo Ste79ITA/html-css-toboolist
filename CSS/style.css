@@ -2,5 +2,59 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    background-color: grey;
+
 }
 
+/* HEADER */
+
+.page_header {
+    font-size: 40px;
+    background: white;
+    margin-bottom: 40px;
+}
+
+.main_logo {
+    padding: 10px 0px 10px 20px;
+    vertical-align: middle;
+    background-color: white;
+
+}
+
+.main_title {
+    background-color: white;
+}
+
+
+/* MAIN PAGE */
+
+
+/* NAV BAR */
+
+.nav_bar {
+    background-color: white;
+    padding: 10px 50px;
+    margin-bottom: 2px;
+    max-width: 600px;
+    margin: 0 auto;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.nav_button_1 {
+    padding: 10px 13px;
+    background-color: rgb(71, 172, 241);
+    border: none;
+    border-radius: 6px;
+    color: white;
+}
+
+.nav_button_2 {
+    padding: 9px 13px;
+    background-color: white;
+    border: solid 1px grey;
+    border-radius: 6px;
+    color: grey;
+}
+
+/* TODO LIST */
