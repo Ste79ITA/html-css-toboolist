@@ -67,6 +67,7 @@
     margin: 0 auto;
     margin-top: 2px;
     padding: 10px 50px;
+    padding-top: 40px;
 }
 
 .list_style {
@@ -84,6 +85,7 @@ line-height: 40px;}
 
 .open_task {
     padding-right: 5px;
+    font-size: 12px;
 }
 
 .bold_text {
@@ -95,6 +97,8 @@ line-height: 40px;}
     border: 1px solid green;
     color: green;
     padding: 1px 4px;
+    font-size: 10px;
+
 }
 
 .check-box_red{
@@ -102,6 +106,7 @@ line-height: 40px;}
     border: 1px solid red;
     color: red;
     padding: 1px 5px;
+    font-size: 10px;
 }
 
 .label {
@@ -130,4 +135,12 @@ line-height: 40px;}
 
 .orange_label {
     background-color: rgb(242, 157, 52);
+}
+
+.pink_label {
+    background-color: rgb(217, 99, 160);
+}
+
+.green_label {
+    background-color: rgb(173, 201, 37);
 }
