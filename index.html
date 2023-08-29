@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Toboolist</title>
 </head>
-<body >
+<body class="main_body">
     <header class="page_header">
         <img class="main_logo" src="./img/Logo.png" alt="Boolean's Logo">
         <strong class="main_title">Toboolist</strong> 
@@ -19,8 +19,66 @@
             <button class="nav_button_2">Add Selection</button>
      </nav>
 
-    <div class="todo_list">
+        <!-- NEW TASK -->
 
+    <div class="todo_list">
+        <ul class="list_style">
+            <li class="bold_text"><span class="open_task">&#x25BC;</span>New Task</li>
+            <ul class="list_style_nested">
+                <li class="sub_list">
+                    <span class="check-box_green">&check;</span> Quarterly Newsletter
+                    <span><button class="label blue_label">Editorial</button></span>
+                </li>
+            </ul>
+        </ul>
+
+            <!-- TODAY -->
+
+        <ul class="list_style">
+            <li class="bold_text"><span class="open_task">&#x25BC;</span>Today</li>
+            <ul class="list_style_nested">
+                <li class="sub_list">
+                    <span class="check-box_green">&check;</span> Rectruiting blog post
+                    <span><button class="label blue_label">Editorial</button></span>
+                </li>
+                <li class="sub_list">
+                    <span class="check-box_green">&check;</span> Mobile app launch
+                    <span><button class="label purple_label">Q1 Goals</button></span>
+                </li>
+                <li class="sub_list">
+                    <span class="check-box_red">&cross;</span> Interview John H.
+                    <span><button class="label green_label">Recruiting</button></span>
+                </li>
+                <li class="sub_list">
+                    <span class="check-box_green">&check;</span> Submit update to mobile storefront
+                    <span><button class="label orange_label">Mobile</button></span>
+                </li>
+            </ul>
+        </ul>
+
+        <!-- UPCOMING -->
+
+        <ul class="list_style">
+            <li class="bold_text"><span class="open_task">&#x25BC;</span>Today</li>
+            <ul class="list_style_nested">
+                <li class="sub_list">
+                    <span class="check-box_green">&check;</span> Rectruiting blog post
+                    <span><button class="label blue_label">Editorial</button></span>
+                </li>
+                <li class="sub_list">
+                    <span class="check-box_green">&check;</span> Mobile app launch
+                    <span><button class="label purple_label">Q1 Goals</button></span>
+                </li>
+                <li class="sub_list">
+                    <span class="check-box_red">&cross;</span> Interview John H.
+                    <span><button class="label green_label">Recruiting</button></span>
+                </li>
+                <li class="sub_list">
+                    <span class="check-box_green">&check;</span> Submit update to mobile storefront
+                    <span><button class="label orange_label">Mobile</button></span>
+                </li>
+            </ul>
+        </ul>
     </div>
     
 </body>

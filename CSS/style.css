@@ -2,8 +2,11 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background-color: grey;
+    font-family: sans-serif;
+}
 
+.main_body {
+    background-color: rgb(247, 248, 249);
 }
 
 /* HEADER */
@@ -34,8 +37,7 @@
 .nav_bar {
     background-color: white;
     padding: 10px 50px;
-    margin-bottom: 2px;
-    max-width: 600px;
+    max-width: 700px;
     margin: 0 auto;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
@@ -58,3 +60,74 @@
 }
 
 /* TODO LIST */
+
+.todo_list {
+    background-color: white;
+    max-width: 700px;
+    margin: 0 auto;
+    margin-top: 2px;
+    padding: 10px 50px;
+}
+
+.list_style {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.list_style_nested{
+    list-style: none;
+    padding-left: 10px;
+}
+
+.sub_list {
+line-height: 40px;}
+
+.open_task {
+    padding-right: 5px;
+}
+
+.bold_text {
+    font-weight: bold;
+}
+
+.check-box_green{
+    border-radius: 50% ;
+    border: 1px solid green;
+    color: green;
+    padding: 1px 4px;
+}
+
+.check-box_red{
+    border-radius: 50% ;
+    border: 1px solid red;
+    color: red;
+    padding: 1px 5px;
+}
+
+.label {
+    border-radius: 8px;
+    border: none;
+    padding: 5px 7px;
+    color: white;
+    font-size: 10px;
+    margin-left: 5px;
+    
+}
+
+/* LABEL COLORS */
+
+.blue_label {
+    background-color: rgb(71, 172, 241);
+}
+
+.purple_label {
+    background-color: rgb(155, 114, 229);
+}
+
+.green_label {
+    background-color: rgb(100, 192, 168);
+}
+
+.orange_label {
+    background-color: rgb(242, 157, 52);
+}
